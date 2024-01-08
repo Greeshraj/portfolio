@@ -30,7 +30,7 @@ const Achievement = () => {
           <ResumeCard
             title="IIT JEE Advance -2021"
             subTitle="Secured Category Rank 909"
-            result="Ranked 909 out of 58,780 General Category Students"
+            result="Ranked 909 out of 58,780 General Category EWS Students"
             des="Embarking on the challenging journey of IIT JEE Advance 2021, I clinched an impressive Category Rank of 809. In a field of 58,780 aspiring minds, my dedication and perseverance earned me the distinguished 908th position. This accomplishment stands as a testament to unwavering commitment and the pursuit of excellence in the pursuit of knowledge."
           />
         </div>
