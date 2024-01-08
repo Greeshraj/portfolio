@@ -21,12 +21,12 @@ const Achievement = () => {
             result="2nd Rank"
             des="Secured 2nd place in the Full Stack Development at the KodeinKGP-organized Hack-An-Intern Hackathon, with team and won cash prize's."
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Semester Grade"
             subTitle="9.14/10 SGPA in 6th Semester"
             result="Top 10"
             des=" Elevating academic excellence, this achievement boasts a remarkable 9.14/10 SGPA in the 6th semester, earning a well-deserved spot among the top 10 performers"
-          />
+          /> */}
           <ResumeCard
             title="IIT JEE Advance -2021"
             subTitle="Secured Category Rank 909"
