@@ -1,5 +1,5 @@
 // import logo from "./images/logo.png";
-import bannerImg from "./images/profile.png";
+import bannerImg from "./images/banner.jpg";
 
 import face_recog from "./images/face_recog.png";
 import color_detect from "./images/color_detect.png"
