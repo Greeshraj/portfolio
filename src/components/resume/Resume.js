@@ -4,25 +4,33 @@ import Education from './Education';
 import Skills from './Skills';
 import Achievement from './Achievement';
 import Experience from "./Experience"
-
+import Extraactivity from './Extraactivity';
+import cv from "../../assets/images/cv.pdf"
 const Resume = () => {
    const [educationData, setEducationData] = useState(true);
    const [skillData, setSkillData] = useState(false);
    const [experienceData, setExperienceData] = useState(false);
    const [achievementData, setAchievementData] = useState(false);
+   const [extraactivitydata,setextraactivitdata] = useState(false)
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
-      <div className="flex justify-center items-center text-center">
-        <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
+      <div className=" items-center text-center">
+        <Title des="My Resume" />
+        <div>
+      <a href={cv} download="document.pdf">
+        Download Resume
+      </a>
+    </div>
       </div>
       <div>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5">
           <li
             onClick={() =>
               setEducationData(true) &
               setSkillData(false) &
               setExperienceData(false) &
-              setAchievementData(false)
+              setAchievementData(false) &
+              setextraactivitdata(false)
             }
             className={`${
               educationData
@@ -37,20 +45,22 @@ const Resume = () => {
               setEducationData(false) &
               setSkillData(true) &
               setExperienceData(false) &
-              setAchievementData(false)
+              setAchievementData(false) &
+              setextraactivitdata(false)
             }
             className={`${
               skillData ? "border-designColor rounded-lg" : "border-transparent"
             } resumeLi`}
           >
-            Professional Skills
+            Skills and Expertise
           </li>
           <li
             onClick={() =>
               setEducationData(false) &
               setSkillData(false) &
               setExperienceData(true) &
-              setAchievementData(false)
+              setAchievementData(false) &
+              setextraactivitdata(false)
             }
             className={`${
               experienceData
@@ -65,7 +75,8 @@ const Resume = () => {
               setEducationData(false) &
               setSkillData(false) &
               setExperienceData(false) &
-              setAchievementData(true)
+              setAchievementData(true) &
+              setextraactivitdata(false)
             }
             className={`${
               achievementData
@@ -73,7 +84,23 @@ const Resume = () => {
                 : "border-transparent"
             } resumeLi`}
           >
-            Achievements
+            Competition
+          </li>
+          <li
+            onClick={() =>
+              setEducationData(false) &
+              setSkillData(false) &
+              setExperienceData(false) &
+              setAchievementData(false) &
+              setextraactivitdata(true)
+            }
+            className={`${
+              extraactivitydata
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+          >
+            Extra Activity
           </li>
         </ul>
       </div>
@@ -81,6 +108,7 @@ const Resume = () => {
       {skillData && <Skills />}
       {achievementData && <Achievement />}
       {experienceData && <Experience />}
+      {extraactivitydata && <Extraactivity/>}
  
     </section>
   );

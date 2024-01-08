@@ -1,22 +1,22 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaNodeJs, FaPython } from "react-icons/fa";
+import { SiTailwindcss, SiFigma, SiNextdotjs, SiJavascript, SiExpress } from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+      words: ["Data Science Enthusiastic.", "Full Stack Developer.", "Software Developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
       delaySpeed: 2000,
     });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-3/4 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+        <h4 className=" text-lg font-normal">Welcome to the World of Development</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hey, I'm <span className="text-designColor capitalize">Greeshraj Patairiya</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -27,9 +27,11 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        At IIT Kharagpur, I am currently a third-year undergraduate student studying economics,
+        my true passion lies in software development, data science, and machine learning., 
+         I am confident in my ability to solve complex problems and deliver innovative solutions.
+          Whether it be developing full-stack applications or utilizing machine learning algorithms,
+          I am always striving to learn and take on new challenges.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -39,13 +41,19 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
+              <a href="https://www.facebook.com/greeshraj.patairiya.319/">
               <FaFacebookF />
+              </a>
             </span>
             <span className="bannerIcon">
-              <FaTwitter />
+             <a href="https://twitter.com/patairiya_gmuni">
+             <FaTwitter />
+             </a>
             </span>
             <span className="bannerIcon">
-              <FaLinkedinIn />
+             <a href="https://www.linkedin.com/in/greeshraj/">
+             <FaLinkedinIn />
+             </a>
             </span>
           </div>
         </div>
@@ -58,13 +66,16 @@ const LeftBanner = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <SiExpress/>
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <FaNodeJs />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <SiJavascript />
+            </span>
+            <span className="bannerIcon">
+              <FaPython />
             </span>
           </div>
         </div>

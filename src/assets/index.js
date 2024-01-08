@@ -1,21 +1,24 @@
-import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
-import projectOne from "./images/projects/projectOne.jpg";
-import projectTwo from "./images/projects/projectTwo.jpg";
-import projectThree from "./images/projects/projectThree.jpeg";
-import testimonialOne from "./images/testmonial/testimonialOne.png";
-import testimonialTwo from "./images/testmonial/testimonialTwo.png";
-import quote from "./images/testmonial/quote.png";
+// import logo from "./images/logo.png";
+import bannerImg from "./images/profile.png";
+
+import face_recog from "./images/face_recog.png";
+import color_detect from "./images/color_detect.png"
+import human_count from "./images/human_count.png";
+import yt_download from "./images/yt_video.png";
+import wt_predict from "./images/wt_predict.png";
+import logo from "./images/logo_gr2.png"
+import website from "./images/website.png"
+
 import contactImg from "./images/contact/contactImg.png";
 
 export {
   logo,
   bannerImg,
-  projectOne,
-  projectTwo,
-  projectThree,
-  testimonialOne,
-  testimonialTwo,
-  quote,
+  face_recog,
+  color_detect,
+  human_count,
+  yt_download,
+  wt_predict,
   contactImg,
+  website
 };

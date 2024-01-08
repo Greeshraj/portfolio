@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { face_recog,color_detect,human_count,yt_download,wt_predict,website } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -11,46 +11,54 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          title=""
           des="My Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          title="Automated Color Detection from image"
+          des="Developed color detection application by using OpenCV and Pandas, allowing to obtain colors names by clicking on picture.
+
+          •Utilized a dataset with 865 color names & RGB values to calculate the distance from  each color,showing proficiency in python.
+          
+          •Implemented mouse event handling,image  processing & creating a  user-friendly interface with OpenCV, Pandas, and numpy."
+          src={color_detect}
+        />
+        <ProjectsCard
+          title="Facetronix:Attendance Tracking with Face Recognition"
+          des="Developed accurate and efficient Face Recognition Attendance System with OpenCV, Flask,and ML libraries like scikit-learn.
+
+          •Utilized KNN algorithm for facial recognition, achieving instant identification and integration with a Flask web application.
+          
+          •Cutting-Edge Biometric Attendance Ecosystem (Face), synergizing OpenCV, Flask, and avant-garde machine learning libraries."
+          src={face_recog}
+        />
+        <ProjectsCard
+          title="Weight Prediction with Random Forests"
+          des=" •Engineered a Python script using libraires for weight category prediction, incorporating StandardScaler for feature scaling.
+
+          •Implemented Random Forest Classifier & Numpy, Pandas, Matplotlib for Data manipulation, visulaization and analysis.
+          
+          •Created a function for real-time weight category prediction, seamlessly integrating user input array with preprocessed data."
+          src={wt_predict}
+        />
+        <ProjectsCard
+          title="Personal Portfolio Website"
+          des=" Created a personal portfolio website."
+          src={website}
         />
         <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          src={wt_predict}
         />
         <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          src={wt_predict}
         />
       </div>
     </section>

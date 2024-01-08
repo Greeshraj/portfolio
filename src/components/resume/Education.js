@@ -12,58 +12,33 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+          {/* <p className="text-sm text-designColor tracking-[4px]"></p> */}
+          <h2 className="text-3xl md:text-4xl font-bold">Education Qualification</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="BS Economics (4YR)"
+            subTitle="Indian Institute of Technology Kharagpur (2021-25)"
+            result="7.81/10"
+            des="Pursuing a Bachelor's degree in Economics (4-year program) at the esteemed Indian Institute of Technology, Kharagpur, from 2021 to 2025. Currently maintaining a strong academic record with a notable result of 7.81/10, reflecting dedication to excellence in the field of Economics and a commitment to scholarly pursuits. "
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Senior Secondary Education"
+            subTitle="Jawahar Navodaya Vidyalaya Mahoba UP (2018-20)"
+            result="91.40%"
+            des="Excelled in Senior Secondary Education at Jawahar Navodaya Vidyalaya, Mahoba, Uttar Pradesh, during the period 2018-2020, securing an impressive result of 91.40%. This academic phase further honed my skills and deepened my knowledge, laying a solid groundwork for future endeavors."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Higher School Education"
+            subTitle="Jawahar Navodaya Vidyalaya Mahoba UP(2013-18)"
+            result="79.20 %"
+            des="Successfully navigated the academic landscape at Jawahar Navodaya Vidyalaya in Mahoba, Uttar Pradesh, from 2013 to 2018, attaining a noteworthy result of 79.20%. This period not only enriched my educational foundation but also fostered personal growth and development"
           />
         </div>
       </div>
       {/* part Two */}
 
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
-        </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
-          />
-          <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
-          />
-          <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
-        </div>
-      </div>
+     
     </motion.div>
   );
 };
