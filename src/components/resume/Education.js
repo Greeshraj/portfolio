@@ -17,9 +17,9 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BS Economics (4YR)"
+            title="BS-MS Economics (5YR)"
             subTitle="Indian Institute of Technology Kharagpur (2021-25)"
-            result="7.81/10"
+            result="8.12/10"
             des="Pursuing a Bachelor's degree in Economics (4-year program) at the esteemed Indian Institute of Technology, Kharagpur, from 2021 to 2025. Currently maintaining a strong academic record with a notable result of 7.81/10, reflecting dedication to excellence in the field of Economics and a commitment to scholarly pursuits. "
           />
           <ResumeCard

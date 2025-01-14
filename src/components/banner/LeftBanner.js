@@ -27,7 +27,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        At IIT Kharagpur, I am currently a third-year undergraduate student studying economics,
+        At IIT Kharagpur, I am currently a Fourth-year undergraduate student studying economics,
         my true passion lies in software development, data science, and machine learning., 
          I am confident in my ability to solve complex problems and deliver innovative solutions.
           Whether it be developing full-stack applications or utilizing machine learning algorithms,
